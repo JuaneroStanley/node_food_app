@@ -1,28 +1,25 @@
 .login_everything {
   display: flex;
   flex-direction: column;
-  background-color: green;
 }
 
 .login_topbanner {
-  background-color: red;
   display: flex;
   flex-direction: row;
-  height: 15vh;
+  height: 10vh;
   width: 100vw;
 }
 
 .login_midbanner {
-  background-color: blue;
   display: flex;
   flex-direction: row;
-  height: 85vh;
+  height: 90vh;
   width: 100vw;
+  position: relative;
 }
 
 .login_exsiting {
   align-items: center;
-  background-color: yellow;
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -31,11 +28,12 @@
 }
 
 .login_exsisting_top {
-  font-size: 30px;
-  margin: 30px;
+  font-size: 42px;
+  height: 20vh;
 }
 
 .login_exsisting_mid {
+  height: 70vh;
 }
 
 .login_exsisting_user {
@@ -49,7 +47,75 @@
   display: flex;
   flex-direction: column;
 }
+.login_exsisting_password_field {
+  width: 350px;
+}
 
 .login_exsisting_bot {
-  margin-top: 50px;
+  height: 10vh;
+}
+
+.login_exsisting_btn {
+  width: 400px;
+  height: 70px;
+  font-size: 36px;
+}
+
+.login_new {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.login_new_top {
+  font-size: 42px;
+  height: 20vh;
+}
+
+.login_new_mid {
+  height: 70vh;
+}
+
+.login_new_email {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login_new_password {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.login_new_repeat_password {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login_new_repeat_password_field {
+  width: 350px;
+}
+
+.login_new_bot {
+  height: 10vh;
+}
+
+.login_new_btn {
+  width: 400px;
+  height: 70px;
+  font-size: 36px;
+}
+
+.login_everything::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+  background-color: black; /* Adjust the color as needed */
 }

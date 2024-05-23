@@ -8,7 +8,10 @@ function Start() {
     <div className="start">
       <div className="body">
         <div className="left">
-          <Logo />
+          <div className="logo_text">
+            <div className="left_logo">FOOD.</div>
+            <div className="right_logo">GIVEME</div>
+          </div>
           <div className="text_bot">Your portal for ordering food</div>
         </div>
         <div className="center">

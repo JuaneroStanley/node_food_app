@@ -23,6 +23,24 @@
   align-items: center;
 }
 
+.logo_text {
+  margin-left: 60px;
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  width: 450px;
+  font-size: 56px;
+  font-family: "Roboto", sans-serif;
+}
+
+.left_logo {
+  color: #000000;
+}
+
+.right_logo {
+  color: #d2a124;
+}
+
 .text_bot {
   text-align: center;
   font-family: "Roboto", sans-serif;

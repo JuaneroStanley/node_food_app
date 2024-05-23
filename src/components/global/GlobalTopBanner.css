@@ -1,0 +1,13 @@
+.global_top_banner {
+  height: 10vh;
+  width: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.item.right {
+  padding: 5%;
+}

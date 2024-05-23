@@ -1,15 +1,14 @@
 import React from "react";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
-import Logo from "../global/Logo";
 import "./Login.css";
+import GlobalTopBanner from "../global/GlobalTopBanner";
 
 export default function Login() {
   return (
     <div className="login_everything">
       <div className="login_topbanner">
-        <Logo />
-        <div>OP</div>
+        <GlobalTopBanner />
       </div>
       <div className="login_midbanner">
         <div className="login_exsiting">
@@ -37,7 +36,11 @@ export default function Login() {
             </div>
           </div>
           <div className="login_exsisting_bot">
-            <Button className="login_exsisting_btn" variant="contained">
+            <Button
+              className="login_exsisting_btn"
+              variant="contained"
+              sx={{ fontSize: "26px" }}
+            >
               LOGIN
             </Button>
           </div>
@@ -78,7 +81,11 @@ export default function Login() {
             </div>
           </div>
           <div className="login_new_bot">
-            <Button className="login_new_btn" variant="contained">
+            <Button
+              className="login_new_btn"
+              variant="contained"
+              sx={{ fontSize: "26px" }}
+            >
               REGISTER
             </Button>
           </div>
