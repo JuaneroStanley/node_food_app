@@ -1,12 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import "./MenuButton.css";
-export default function MenuButton() {
+import DropDownMenu from "./DropDownMenu";
+
+const MenuButton = () => {
+  const [isToggled, setToggle] = useState(false);
+  const handleToggle = () => {
+    setToggle(!isToggled);
+  };
   return (
-    <button className="button_menu">
-      <div className="bar black"></div>
-      <div className="bar bronze"></div>
-      <div className="bar black"></div>
-      <div className="bar bronze"></div>
-    </button>
+    <div className="menu_button_all">
+      <button className="button_menu" onClick={handleToggle}>
+        <div className="bar black"></div>
+        <div className="bar bronze"></div>
+        <div className="bar black"></div>
+        <div className="bar bronze"></div>
+      </button>
+    </div>
   );
-}
+};
+
+export default MenuButton;

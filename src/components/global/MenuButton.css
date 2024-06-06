@@ -23,3 +23,8 @@
 .bar.black {
   background-color: black;
 }
+
+.drop_down_menu {
+  position: absolute;
+  top: 50px;
+}

@@ -1,6 +1,5 @@
 import React from "react";
 import "./Start.css";
-import Logo from "../global/Logo";
 import chef_img from "./chef_logo.jpg";
 import { Link } from "react-router-dom";
 function Start() {
@@ -8,9 +7,9 @@ function Start() {
     <div className="start">
       <div className="body">
         <div className="left">
-          <div className="logo_text">
-            <div className="left_logo">FOOD.</div>
-            <div className="right_logo">GIVEME</div>
+          <div className="start_logo_text">
+            <div className="start_left_logo">FOOD.</div>
+            <div className="start_right_logo">GIVEME</div>
           </div>
           <div className="text_bot">Your portal for ordering food</div>
         </div>

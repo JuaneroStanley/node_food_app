@@ -23,7 +23,7 @@
   align-items: center;
 }
 
-.logo_text {
+.start_logo_text {
   margin-left: 60px;
   display: flex;
   flex-direction: row;
@@ -33,11 +33,11 @@
   font-family: "Roboto", sans-serif;
 }
 
-.left_logo {
+.start_left_logo {
   color: #000000;
 }
 
-.right_logo {
+.start_right_logo {
   color: #d2a124;
 }
 

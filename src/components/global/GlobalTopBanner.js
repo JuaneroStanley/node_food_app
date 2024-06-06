@@ -6,8 +6,8 @@ import Logo from "./Logo";
 export default function GlobalTopBanner() {
   return (
     <div className="global_top_banner">
-      <Logo className="item right" />
-      <MenuButton className="item left" />
+      <Logo className="glob_banner_item_left" />
+      <MenuButton className="glob_banner_item_right" />
     </div>
   );
 }
