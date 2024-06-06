@@ -1,4 +1,5 @@
 .logo {
+<<<<<<< HEAD
   position: relative;
   height: 60px;
   width: 450px;
@@ -17,24 +18,39 @@
   flex-direction: row;
   justify-content: left;
   align-items: center;
+=======
+	position: relative;
+	height: 60px;
+	width: 400px;
+	font-size: 56px;
+	font-family: "Roboto", sans-serif;
+}
+
+.logo_text {
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+>>>>>>> 3e5c58637395254a87481e1d27dfb1e04759a9c7
 }
 
 .left_logo {
-  color: #000000;
+	color: #000000;
 }
 
 .right_logo {
-  color: #d2a124;
+	color: #d2a124;
 }
 
 .logo_btn {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: black;
-  border: none;
-  cursor: pointer;
-  opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
+	cursor: pointer;
+	opacity: 0;
+	margin-left: 10px;
 }
