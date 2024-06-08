@@ -1,18 +1,4 @@
 .global_top_banner {
-<<<<<<< HEAD
-  height: 10vh;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-}
-
-.glob_banner_item_right {
-}
-
-.glob_banner_item_left {
-=======
 	height: 10vh;
 	width: 100vw;
 	display: flex;
@@ -27,5 +13,4 @@
 }
 
 .item_left {
->>>>>>> 3e5c58637395254a87481e1d27dfb1e04759a9c7
 }

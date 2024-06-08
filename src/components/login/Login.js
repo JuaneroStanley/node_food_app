@@ -3,6 +3,7 @@ import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import "./Login.css";
 import GlobalTopBanner from "../global/GlobalTopBanner";
+import {Link} from "react-router-dom";
 
 export default function Login() {
 	return (
@@ -34,13 +35,15 @@ export default function Login() {
 						</div>
 					</div>
 					<div className="login_exsisting_bot">
-						<Button
-							className="login_exsisting_btn"
-							variant="contained"
-							sx={{fontSize: "26px"}}
-						>
-							LOGIN
-						</Button>
+						<Link to="/services">
+							<Button
+								className="login_exsisting_btn"
+								variant="contained"
+								sx={{fontSize: "26px"}}
+							>
+								LOGIN
+							</Button>
+						</Link>
 					</div>
 				</div>
 				<div className="login_new">
@@ -76,13 +79,15 @@ export default function Login() {
 						</div>
 					</div>
 					<div className="login_new_bot">
-						<Button
-							className="login_new_btn"
-							variant="contained"
-							sx={{fontSize: "26px"}}
-						>
-							REGISTER
-						</Button>
+						<Link to="/services">
+							<Button
+								className="login_new_btn"
+								variant="contained"
+								sx={{fontSize: "26px"}}
+							>
+								REGISTER
+							</Button>
+						</Link>
 					</div>
 				</div>
 			</div>
